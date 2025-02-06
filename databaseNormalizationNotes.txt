@@ -3,3 +3,20 @@
 -> Estabelecer relações entre as tabelas
 
 -> Proteger os dados e evitar redundância
+
+-> Evitar inconsistencias (localização de informação em tabelas que não faz sentido)
+    |-> exemplo: o salário dos funcionários estar na tabela dos clientes
+
+REGRAS DE NORMALIZAÇÃO:
+
+1 - 1NF - Primeira Forma Normal
+    a) Eliminar grupos repetidos em tabelas individuais
+    b) Criar uma tabela separada para cada conjunto de data relacionada
+    c) Identificar em cada conjunto de data relacionada a Chave Primária
+
+2 - 2NF - Segunda Forma Normal
+    a) Criar tabelas separadas para conjuntos de valores aplicáveis a múltiplos registos
+    b) Relacionar essas tabelas com uma Chave Estrangeira
+
+3 - 3NF - Terceira Forma Normal
+    a) Eliminar campos não dependentes da chave
