@@ -1,0 +1,5 @@
+-> Criar tabelas
+
+-> Estabelecer relações entre as tabelas
+
+-> Proteger os dados e evitar redundância
